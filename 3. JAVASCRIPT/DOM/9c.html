@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="head" onclick="toss1()">Heads</button>
+    <button id="tail" onclick="toss2()">Tails</button>
+    <p id="result">Result :</p>
+
+    <script>
+            function toss1(){
+                let Element = document.getElementById('head').innerHTML;
+                    document.getElementById('result').innerHTML = `You choose: ${Element}`;
+                
+            }
+            function toss2(){
+                let Element = document.getElementById('tail').innerHTML;
+                    document.getElementById('result').innerHTML = `You choose: ${Element}`;
+                
+            }
+
+            
+    </script>
+</body>
+</html>
